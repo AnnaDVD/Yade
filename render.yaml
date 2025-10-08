@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: wordpress
+    env: docker
+    dockerComposePath: ./docker-compose.yml
+    autoDeploy: true
